@@ -1,7 +1,7 @@
 import arrow from "../../assets/right.svg";
 import header_img from "../../assets/header-img.png";
 import clutch from "../../assets/CLUTCH.png";
-import star from "../../assets/star.svg";
+import star from "../../assets/Star.svg";
 import "./Header.css";
 import recruiter1 from "../../assets/recruiters/Ellipse 761.svg";
 import recruiter2 from "../../assets/recruiters/Ellipse 762.svg";
