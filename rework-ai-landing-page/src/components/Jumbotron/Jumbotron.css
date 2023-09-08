@@ -1,0 +1,100 @@
+#jumbotron {
+    border-radius: 1.25rem;
+    background: var(--rework-prime, #5c27c0);
+    width: 77.5rem;
+    height: 21.875rem;
+    flex-shrink: 0;
+    margin: 0 6.25rem 6.25rem 6.25rem;
+    /* display: flex; */
+}
+
+.jumbotron-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron-container h1 {
+    color: var(--White, #fff);
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 3.87rem;
+    line-height: 120%; /* 5.4rem */
+}
+
+.jumbotron-container p {
+    color: var(--White, #fff);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 1.8rem */
+}
+
+.jumbotron-container button {
+    border-radius: 3.93413rem;
+    background: #fff;
+    display: inline-flex;
+    padding: 1.10156rem 2.01125rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.737rem;
+    border: none;
+    color: var(--rework-prime, #5c27c0);
+    font-family: Actor;
+    font-size: 1.76888rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 3.6rem;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 430px) {
+    #jumbotron {
+        margin: 2.5rem 1.5rem;
+        width: auto;
+        height: auto;
+    }
+    .jumbotron-container {
+        display: flex;
+        /* width: 23.875rem; */
+        padding: 2rem 0rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 1.75rem;
+    }
+    .jumbotron-container h1 {
+        color: var(--White, #fff);
+        text-align: center;
+        font-family: Gilroy-Bold;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: 0;
+        line-height: 120%; /* 2.4rem */
+    }
+    .jumbotron-container p {
+        font-size: 1rem;
+    }
+    .jumbotron-container button {
+        display: flex;
+        padding: 0.60481rem 0.60481rem 0.605rem 0.72581rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.36288rem;
+        color: var(--rework-prime, #5c27c0);
+        font-family: Actor;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 0;
+    }
+}

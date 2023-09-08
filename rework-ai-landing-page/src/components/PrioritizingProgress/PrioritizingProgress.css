@@ -1,0 +1,103 @@
+#prioritizing-progress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+    gap: 7.56rem;
+}
+
+.priority-heading {
+    margin-top: 5rem;
+}
+
+.priority-heading img {
+    display: none;
+}
+
+.highlight {
+    color: var(--primary-color);
+}
+
+.priority-heading h1 {
+    color: var(--Text-dark, #202020);
+    font-family: Gilroy-Bold;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 4.6rem */
+}
+
+.priority-heading p {
+    color: var(--Text-medium, #505050);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 1.8rem */
+    margin-top: 2rem;
+}
+
+.prioritizing-progress2 {
+    flex-direction: row-reverse;
+    margin-top: 5.19rem;
+}
+.getting-started2 {
+    display: none;
+}
+
+@media screen and (max-width: 430px) {
+    #prioritizing-progress {
+        padding: 1.5rem;
+        text-align: center;
+        flex-direction: column;
+        gap: 0;
+    }
+    .priority-heading {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .priority-heading h1 {
+        font-size: 2rem;
+    }
+    .priority-heading p {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+    .prioritizing-progress-left button {
+        display: none;
+    }
+    .prioritizing-progress-right img {
+        display: none;
+    }
+    .priority-heading img {
+        display: block;
+        margin: 1.5rem 0;
+    }
+    .prioritizing-progress2 {
+        margin-top: 0;
+    }
+    .getting-started2 {
+        display: flex;
+        padding: 0.60481rem 0.60481rem 0.60481rem 0.72581rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.36288rem;
+        border-radius: 2.01613rem;
+        border: 2.065px solid #5c27c0;
+        margin-top: 3.5rem;
+        color: var(--rework-prime, #5c27c0);
+        font-family: Actor;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background: none;
+    }
+    .getting-started2 span img {
+        width: 1.29rem;
+    }
+}

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya&display=swap');
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("./assets/fonts/gilroy/Gilroy-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url("./assets/fonts/gilroy/Gilroy-ExtraBold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("./assets/fonts/gilroy/Gilroy-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("./assets/fonts/gilroy/Gilroy-Medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+}

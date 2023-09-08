@@ -1,0 +1,272 @@
+.header {
+    /* display: flex; */
+    /* height: 100vh; */
+}
+
+.header-main {
+    padding-left: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1,
+p,
+h3 {
+    margin: 0;
+}
+
+.heading h1:nth-of-type(1) {
+    color: var(--Text-dark, #202020);
+    font-family: Gilroy-ExtraBold;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 6rem */
+    margin-top: 8.19rem;
+}
+
+.heading h1:nth-of-type(2) {
+    color: var(--rework-prime, #5c27c0);
+    font-family: Gilroy-ExtraBold;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 7rem */
+}
+
+.getting-started {
+    display: flex;
+    padding: 0.875rem 1rem 0.875rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.58544rem;
+    border-radius: 3.125rem;
+    border: 3.2px solid #5c27c0;
+    color: var(--rework-prime, #5c27c0);
+    font-family: Actor;
+    font-size: 1.40506rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: var(--white);
+    margin-top: 2rem;
+}
+
+.review {
+    gap: 1.08rem;
+    margin-top: 5.25rem;
+}
+
+.reviews-head p {
+    margin-bottom: 0.35rem;
+    font-family: Gilroy-Medium;
+    font-size: 1.07863rem;
+}
+
+.recruiters p {
+    color: var(--Text-light, #7b7b7b);
+    font-family: Gilroy-Regular;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2.26rem;
+}
+
+.recruiter-content {
+    border-radius: 2.5rem;
+    border: 2.82px solid var(--White, #fff);
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.recruiter-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.recruiter-content:nth-of-type(2) {
+    position: absolute;
+    left: 5.3%;
+}
+.recruiter-content:nth-of-type(3) {
+    position: absolute;
+    left: 10.3%;
+}
+.recruiter-content:nth-of-type(4) {
+    position: absolute;
+    left: 15.3%;
+}
+.recruiter-content:nth-of-type(5) {
+    position: absolute;
+    left: 20.3%;
+}
+.recruiter-content:nth-of-type(6) {
+    position: absolute;
+    left: 25.3%;
+}
+
+.more-recruiters {
+    position: absolute;
+    border-radius: 2.5rem;
+    border: 2.82px solid var(--White, #fff);
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    left: 25.3%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.features {
+    position: absolute;
+    border-radius: 0.66906rem;
+    background: var(--White, #fff);
+    box-shadow: 2.67619px 2.67619px 8.02857px 2.67619px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(13.380953788757324px);
+    display: inline-flex;
+    height: 5.18513rem;
+    padding: 0.41813rem 1.00356rem;
+    align-items: center;
+    gap: 0.66906rem;
+    /* flex-shrink: 0; */
+    width: 19rem;
+}
+
+.feature-text h3 {
+    margin-bottom: 2%;
+    color: var(--Text-medium, #505050);
+    font-family: Gilroy-Bold;
+    font-size: 16.057px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.feature-text p {
+    color: var(--Text-medium, #505050);
+    font-family: Quicksand;
+    font-size: 10.705px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.feature1 {
+    top: 50%;
+    right: 55%;
+}
+.feature2 {
+    top: 65%;
+    right: 65%;
+}
+.feature3 {
+    top: 80%;
+    right: 55%;
+}
+
+.brands {
+    display: flex;
+    flex-direction: column;
+    padding: 1.6875rem 19.85306rem 2.3125rem 19.85419rem;
+    justify-content: center;
+    align-items: center;
+    background: var(--rework-prime, #5c27c0);
+}
+
+.brands p {
+    opacity: 0.8;
+    color: var(--White, #fff);
+    font-family: Gilroy-Medium;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.brands-container {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 430px) {
+    .header-main {
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .header-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .recruiter-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .recruiters p {
+        text-align: center;
+    }
+    .recruiter-content,
+    .more-recruiters {
+        position: static !important;
+    }
+    .header-right {
+        margin-top: 2.5rem;
+    }
+    .header-right > img {
+        display: none;
+    }
+    .getting-started,
+    .review {
+        margin-top: 2.5rem;
+    }
+
+    .heading h1:nth-of-type(1) {
+        font-size: 3rem;
+        margin-top: 2.31rem;
+        text-align: center;
+    }
+    .heading h1:nth-of-type(2) {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .features {
+        position: static;
+        width: auto;
+        display: flex;
+        margin-bottom: 1rem;
+        /* width: 20.375rem; */
+        height: 5.1875rem;
+        padding: 0.41813rem 1.00356rem;
+        align-items: center;
+        gap: 0.66906rem;
+    }
+    .brands {
+        display: flex;
+        height: 5.5625rem;
+        padding: 0.80275rem 0rem 1.18988rem 0rem;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+    .brands p {
+        color: var(--White, #fff);
+        font-family: Gilroy-Medium;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .recruiters {
+        /* display: none; */
+    }
+    .brands-container img {
+        width: 20%;
+        object-fit: contain;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,85 @@
+.amazing-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+}
+
+.amazing-features h1 {
+    color: var(--Text-dark, #202020);
+    font-family: Actor;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 5rem */
+    font-family: "Actor", sans-serif;
+}
+
+.amazing-features-card {
+    display: flex;
+    height: 22.75rem;
+    padding: 3rem 2rem 4rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 1rem;
+    background: var(--White, #fff);
+    box-shadow: 0px 0px 16px 0px rgba(0, 10, 103, 0.16);
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.amazing-features-card h3 {
+    color: var(--Text-dark, #202020);
+    font-family: Actor;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0.75rem 0;
+    line-height: normal;
+    font-family: "Actor", sans-serif;
+}
+
+.amazing-features-card p {
+    color: var(--Text-medium, #505050);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.5rem */
+}
+
+.amazing-features-cards {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 430px) {
+    .amazing-features {
+        padding: 0 1.5rem;
+    }
+    .amazing-features h1 {
+        font-size: 2.25rem;
+    }
+    .amazing-features-cards {
+        flex-direction: column;
+    }
+    .amazing-features-card {
+        display: flex;
+        padding: 4rem 1.5rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.75rem;
+        text-align: center;
+        align-self: stretch;
+    }
+    .amazing-features-card h3 {
+        font-size: 1.75rem;
+    }
+}
